@@ -17,12 +17,12 @@ else:
     # Add a atk input
     st.header('Attack Points of the card:')
     #atk = st.number_input('')
-    atk = st.slider("ATK:",0, 5000)
+    atk = st.slider("ATK:",0.0,100.0, 5000.0)
 
     # Add a def input
     st.header("Defense Points of the card:")
     #defn = st.number_input("",key="def")
-    defn = st.slider("DEF:",0, 5000,key="def")
+    defn = st.slider("DEF:",0.0,100.0, 5000.0,key="def")
 
     # Display the entered name
     if st.button("Enviar"):
