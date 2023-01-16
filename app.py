@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import math
 import joblib
-from streamlit_extras.colored_header import colored_header
 
 st.image("logo.png", width=450)
 st.title("PREDICT A CARD'S LEVEL")
