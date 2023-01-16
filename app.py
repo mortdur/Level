@@ -7,7 +7,7 @@ import joblib
 page_bg_img = """
 <style>
 [data-testid="stAppViewContainer"] {
-background-image: url("https://image-0.uhdpaper.com/b/pc-hd/yu-gi-oh-egyptian-god-hd-wallpaper-1920x1080-uhdpaper.com-477.0_b.jpg");
+background-image: url("https://drive.google.com/file/d/1__qKjZ9N1amFIGQDQEc0kpIyMkbmX7ym/view?usp=share_link");
 background-size: cover;
 }
 
