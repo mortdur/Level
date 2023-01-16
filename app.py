@@ -21,6 +21,6 @@ if st.button("Enviar"):
     X = pd.DataFrame([["atk", "def"]],
 			   columns = ["atk", "def"])
 
-    prediction = level_model.predict(float(X)[0])
+    prediction = level_model.predict(X)[0]
 
     st.text(f"Es un {prediction}")
