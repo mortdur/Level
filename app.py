@@ -8,8 +8,10 @@ st.title("Nivel de la carta")
 
 typec = st.selectbox('Enter type of the card',("Normal Monster","Spell Card", "Effect Monster","Trap Card"))
 st.write('You selected:', typec)
-if typec in ("Spell Card","Trap Card") :
-	st.text("Spell cards and trap cards they have no level")
+if typec in ("Spell Card") :
+	st.text("Spell cards they have no level")
+elif typec in ("Trap Card") :
+	st.text("Trap cards they have no level")
 else:
 
     # Add a atk input
