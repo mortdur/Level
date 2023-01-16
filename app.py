@@ -20,7 +20,7 @@ else:
     atk = st.number_input('')
 
     # Add a def input
-    st.header('Defense Points of the card:')
+    st.header('Defense Points of the card:', key = "def")
     defn = st.number_input('')
 
 
