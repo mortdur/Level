@@ -7,7 +7,7 @@ import joblib
 page_bg_img = """
 <style>
 [data-testid="stAppViewContainer"] {
-background-image: url("https://w0.peakpx.com/wallpaper/862/956/HD-wallpaper-yu-gi-oh-anime-desenhos-manga-millenium-muto-relic-yu-gi-oh-yugi.jpg");
+background-image: url("https://wallpaper.dog/large/20445986.jpg");
 background-size: cover;
 }
 
