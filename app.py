@@ -4,6 +4,7 @@ import pandas as pd
 import math
 import joblib
 
+st.image("logo.png", width=450)
 st.title("PREDICT A CARD'S LEVEL")
 
 st.header('Enter type of the card')
