@@ -16,7 +16,8 @@ elif typec in ("Trap Card") :
 else:
 
     # Add a atk input
-    atk = st.number_input('Attack Points of the card:')
+    st.header('Attack Points of the card:')
+    atk = st.number_input()
 
     # Add a def input
     defn = st.number_input("Enter Defense Points of the card:")
