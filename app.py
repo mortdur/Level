@@ -10,6 +10,7 @@ typec = st.selectbox('Enter type of the card',("Normal Monster","Spell Card", "E
 st.write('You selected:', typec)
 if typec == "Spell Card":
 	st.text("NO tiene nivel")
+else:
 
 # Add a atk input
 atk = st.number_input('Attack Points of the card:')
