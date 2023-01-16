@@ -23,7 +23,6 @@ if st.button("Enviar"):
 
     X = pd.DataFrame([[typec,atk, defn ]],
 			   columns = ["type","atk", "def"])
-    X = X.replace(["Normal Monster","Spell Card", "Effect Monster","Trap Card"], [0.,1.,2.,3.])
 
     prediction = level_model.predict(X)[0]
 
