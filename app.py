@@ -8,7 +8,7 @@ from streamlit_extras.colored_header import colored_header
 st.image("logo.png", width=450)
 st.title("PREDICT A CARD'S LEVEL")
 
-colored_header(label="Enter type of the card",color_name="violet-70")
+st.colored_header(label="Enter type of the card",color_name="violet-70")
 st.header('Enter type of the card')
 typec = st.selectbox('',("Normal Monster","Spell Card", "Effect Monster","Trap Card"))
 st.write('You selected:', typec)
