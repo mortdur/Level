@@ -8,7 +8,7 @@ st.title("Nivel de la carta")
 
 typec = st.selectbox('Enter type of the card',("Normal Monster","Spell Card", "Effect Monster","Trap Card"))
 st.write('You selected:', typec)
-if typec == "Spell Card":
+if typec == "Spell Card" or "Trap Card" :
 	st.text("NO tiene nivel")
 else:
 
