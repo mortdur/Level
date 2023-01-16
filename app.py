@@ -4,20 +4,20 @@ import pandas as pd
 import math
 import joblib
 
-page_bg_img = f"""
+page_bg_img = """
 <style>
-[data-testid="stAppViewContainer"] > .main {{
+[data-testid="stAppViewContainer"] {
 background-image: url("https://images.unsplash.com/photo-1501426026826-31c667bdf23d");
 background-size: cover;
-}}
+}
 
-[data-testid="stHeader"] {{
+[data-testid="stHeader"] {
 background: rgba(0,0,0,0);
-}}
+}
 
-[data-testid="stToolbar"] {{
+[data-testid="stToolbar"] {
 right: 2rem;
-}}
+}
 </style>
 """
 
