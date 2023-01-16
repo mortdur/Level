@@ -35,4 +35,4 @@ else:
         prediction = level_model.predict(X)[0]
 
         st.subheader(f"The most appropriate level for this card is {round(prediction)}")
-	st.subheader(f"The most appropriate level for this card is {"*" * prediction}")
+	st.text(f"The most appropriate level for this card is {"*" * prediction}")
