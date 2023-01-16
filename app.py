@@ -20,7 +20,7 @@ right: 2rem;
 }
 </style>
 """
-
+st.markdown(page_bg_img, unsafe_allow_html=True)
 st.image("logo.png", width=450)
 st.title("PREDICT A CARD'S LEVEL")
 st.header('Enter type of the card')
