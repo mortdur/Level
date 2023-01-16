@@ -7,7 +7,7 @@ import joblib
 page_bg_img = """
 <style>
 [data-testid="stAppViewContainer"] {
-background-image: url("https://drive.google.com/file/d/1__qKjZ9N1amFIGQDQEc0kpIyMkbmX7ym");
+background-image: url("https://wallpaperaccess.com/full/6242517.jpg");
 background-size: cover;
 }
 
