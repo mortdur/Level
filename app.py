@@ -23,4 +23,4 @@ if st.button("Enviar"):
 
     prediction = level_model.predict(X)[0]
 
-    st.text(f"Es un {prediction}")
+    st.text(f"Es un {round(prediction)}")
