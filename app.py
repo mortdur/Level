@@ -7,9 +7,9 @@ import joblib
 st.image("logo.png", width=450)
 st.title("PREDICT A CARD'S LEVEL")
 col1, col2, col3 = st.columns(3)
-  with col1:
+with col1:
     st.text("hola")
-  with col2:
+with col2:
     st.header('Enter type of the card')
     typec = st.selectbox('',("Normal Monster","Spell Card", "Effect Monster","Trap Card"))
     st.write('You selected:', typec)
@@ -42,5 +42,5 @@ col1, col2, col3 = st.columns(3)
 
             st.text(f"Es un {round(prediction)}")
 
-  with col3:
+with col3:
     st.text("hola")
