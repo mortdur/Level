@@ -7,12 +7,13 @@ import joblib
 page_bg_img = """
 <style>
 [data-testid="stAppViewContainer"] {
+background: rgba(50,50,50,50);
 background-image: url("https://wallpaperaccess.com/full/6242517.jpg");
 background-size: cover;
 }
 
 [data-testid="stHeader"] {
-background: rgba(50,50,50,50);
+background: rgba(0,0,0,0);
 }
 
 [data-testid="stToolbar"] {
