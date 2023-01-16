@@ -7,7 +7,7 @@ import joblib
 page_bg_img = """
 <style>
 [data-testid="stAppViewContainer"] {
-background-image: url("https://i.pinimg.com/originals/96/3b/13/963b136a605aa32264b993b6be8a12bd.jpg");
+background-image: url("https://mktg-assets.tcgplayer.com/content/opengraph/How%20To%20Build%20The%20Kuribabylon%20Combo%20Deck.jpg");
 background-size: cover;
 }
 
