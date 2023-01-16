@@ -12,7 +12,7 @@ background-size: cover;
 }
 
 [data-testid="stHeader"] {
-background: rgba(0,0,0,0);
+background: rgba(50,0,0,0);
 }
 
 [data-testid="stToolbar"] {
