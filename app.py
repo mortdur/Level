@@ -6,7 +6,7 @@ import joblib
 
 st.image("logo.png", width=450)
 st.title("PREDICT A CARD'S LEVEL")
-  col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(3)
   with col1:
     st.text("hola")
   with col2:
