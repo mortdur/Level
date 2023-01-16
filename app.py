@@ -22,7 +22,7 @@ if st.button("Enviar"):
     level_model = joblib.load("level_model.pkl")
 
     X = pd.DataFrame([[typec,atk, defn ]],
-			   columns = ["atk", "def","type"])
+			   columns = ["type","atk", "def"])
     X = X.replace(["Normal Monster","Spell Card", "Effect Monster","Trap Card"], [0.,1.,2.,3.])
 
     prediction = level_model.predict(X)[0]
