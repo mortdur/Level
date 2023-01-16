@@ -3,12 +3,6 @@ import numpy as np
 import pandas as pd
 import math
 import joblib
-[theme]
-primaryColor="#F63366"
-backgroundColor="#FFFFFF"
-secondaryBackgroundColor="#F0F2F6"
-textColor="#262730"
-font="sans serif"
 
 st.image("logo.png", width=450)
 st.title("PREDICT A CARD'S LEVEL")
