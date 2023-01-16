@@ -14,16 +14,15 @@ if typec in ("Spell Card") :
 elif typec in ("Trap Card") :
 	st.subheader("Trap cards they have no level")
 else:
-
     # Add a atk input
     st.header('Attack Points of the card:')
     #atk = st.number_input('')
-    atk = st.slider("ATK:",100.0, 5000.0)
+    atk = st.slider("ATK:",0.0, 5000.0)
 
     # Add a def input
     st.header("Defense Points of the card:")
     #defn = st.number_input("",key="def")
-    defn = st.slider("DEF:",100.0, 5000.0,key="def")
+    defn = st.slider("DEF:",0.0, 5000.0,key="def")
 
     # Display the entered name
     if st.button("Enviar"):
