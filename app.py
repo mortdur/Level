@@ -18,7 +18,7 @@ if st.button("Enviar"):
 
     level_model = joblib.load("level_model.pkl")
 
-    X = pd.DataFrame([["atk", "def"]],
+    X = pd.DataFrame([[atk, defn]],
 			   columns = ["atk", "def"])
 
     prediction = level_model.predict(X)[0]
