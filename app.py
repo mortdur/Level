@@ -8,7 +8,7 @@ st.image("logo.png", width=450)
 st.title("PREDICT A CARD'S LEVEL")
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.text("hola")
+    st.image("yugi.png", width=450)
 with col2:
     st.header('Enter type of the card')
     typec = st.selectbox('',("Normal Monster","Spell Card", "Effect Monster","Trap Card"))
@@ -43,4 +43,4 @@ with col2:
             st.text(f"Es un {round(prediction)}")
 
 with col3:
-    st.text("hola")
+    st.image("kaiba.png", width=450)
