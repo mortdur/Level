@@ -6,12 +6,13 @@ import joblib
 
 st.title("PREDICT A CARD'S LEVEL")
 
-typec = st.selectbox('Enter type of the card',("Normal Monster","Spell Card", "Effect Monster","Trap Card"))
+st.header('Enter type of the card')
+typec = st.selectbox("Normal Monster","Spell Card", "Effect Monster","Trap Card")
 st.write('You selected:', typec)
 if typec in ("Spell Card") :
-	st.header("Spell cards they have no level")
+	st.subheader("Spell cards they have no level")
 elif typec in ("Trap Card") :
-	st.header("Trap cards they have no level")
+	st.subheader("Trap cards they have no level")
 else:
 
     # Add a atk input
