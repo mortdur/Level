@@ -7,7 +7,7 @@ import joblib
 st.title("PREDICT A CARD'S LEVEL")
 
 st.header('Enter type of the card')
-typec = st.selectbox(('Enter type of the card'),"Normal Monster","Spell Card", "Effect Monster","Trap Card")
+typec = st.selectbox('Enter type of the card',("Normal Monster","Spell Card", "Effect Monster","Trap Card"))
 st.write('You selected:', typec)
 if typec in ("Spell Card") :
 	st.subheader("Spell cards they have no level")
