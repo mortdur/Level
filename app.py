@@ -17,11 +17,11 @@ else:
 
     # Add a atk input
     st.header('Attack Points of the card:')
-    atk = st.number_input("")
+    atk = st.number_input('')
 
     # Add a def input
-    st.header('Enter Defense Points of the card:')
-    defn = st.number_input("")
+    st.header('Defense Points of the card:')
+    defn = st.number_input('')
 
 
     # Display the entered name
