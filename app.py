@@ -7,7 +7,7 @@ import joblib
 page_bg_img = """
 <style>
 [data-testid="stAppViewContainer"] {
-background-image: url("https://wallpapercave.com/wp/wp2753204.jpg");
+background-image: url("https://i.pinimg.com/originals/96/3b/13/963b136a605aa32264b993b6be8a12bd.jpg");
 background-size: cover;
 }
 
