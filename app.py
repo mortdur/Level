@@ -32,7 +32,7 @@ padding: 0px 16px;
 }
 
 [data-testid=".st-br"]{
-color : rgb(0, 0, 0);
+color : rgb(189, 0, 0);
 }
 
 [data-testid="stToolbar"] {
