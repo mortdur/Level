@@ -21,7 +21,7 @@ background: rgba(0,0,0,0);
 }
 
 [data-testid="stVerticalBlock"] {
-textColor = "#000000";
+textColor : "#000000";
 background: "#000000";
 }
 
