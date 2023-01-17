@@ -26,7 +26,7 @@ color : rgb(0, 0, 0);
 
 [data-testid="stVerticalBlock"] {
 #color : rgb(0, 0, 0);
-background: rgba(247, 215, 63, 0.15);
+background: rgba(83, 0, 0, 0.15);
 border-radius: 15px 50px;
 padding: 0px 16px;
 }
