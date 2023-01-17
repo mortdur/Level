@@ -30,7 +30,7 @@ right: 2rem;
 with st.container():
   st.markdown(page_bg_img, unsafe_allow_html=True)
   st.image("logo.png", width=450)
-  st.title("PREDICT A CARD'S LEVEL",key="levelapp")
+  st.title("PREDICT A CARD'S LEVEL")
   st.header('Enter type of the card',key="tipo")
   typec = st.selectbox('',("Normal Monster","Spell Card", "Effect Monster","Trap Card"),key="select")
   st.write('You selected:', typec,key="selected")
