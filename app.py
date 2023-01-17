@@ -26,6 +26,8 @@ right: 2rem;
 }
 </style>
 """
+
+with st.container():
 st.markdown(page_bg_img, unsafe_allow_html=True)
 st.image("logo.png", width=450)
 st.title("PREDICT A CARD'S LEVEL")
