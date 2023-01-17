@@ -7,12 +7,12 @@ import joblib
 page_bg_img = """
 <style>
 [data-testid="stAppViewContainer"] {
-background-color: #e5e5f7;
-opacity: 0.92;
-background-image:  linear-gradient(135deg, #59bdca 25%, transparent 25%), linear-gradient(225deg, #59bdca 25%, transparent 25%), linear-gradient(45deg, #59bdca 25%, transparent 25%), linear-gradient(315deg, #59bdca 25%, #e5e5f7 25%);
-background-position:  40px 0, 40px 0, 0 0, 0 0;
-background-size: 80px 80px;
-background-repeat: repeat;}
+background-image: url("https://mktg-assets.tcgplayer.com/content/opengraph/How%20To%20Build%20The%20Kuribabylon%20Combo%20Deck.jpg");
+background-size: 180%;
+background-position: top left;
+background-repeat: no-repeat;
+background-attachment: local;
+}
 
 [data-testid="stHeader"] {
 background: rgba(0,0,0,0);
