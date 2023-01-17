@@ -17,7 +17,7 @@ background-attachment: local;
 [data-testid="stHeader"] {
 background: rgba(0,0,0,0);
 }
-[data-testid=".st-br"] {
+[data-testid="st-br"] {
 textColor = "#000000";
 }
 
