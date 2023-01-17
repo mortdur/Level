@@ -67,6 +67,7 @@ font-size: 15px;
 
 h1 {
 color : rgb(138, 156, 253);
+background: rgba(138, 156, 253, 0.15);
 }
 </style>
 """
