@@ -48,4 +48,10 @@ with st.container():
       defn = st.slider("DEF:",0.0, 5000.0,step=100.0,key="def")
 
       # Display the entered name
-      if st.button("Enviar"):
+      if st.button("Enviar") :
+        level_model = joblib.load("level_model.pkl")
+        X = pd.DataFrame([[typec,atk, defn ]],
+          columns = ["type","atk", "def"])
+        X = X.replace(["Normal Monster","Spell Card", "Effect Monster","Trap Card"], [0.,1.,2.,3.])
+        prediction = level_model.predict(X)[0]
+        st.subheader(f"The most appropriate level for this card is {round(prediction)}")
