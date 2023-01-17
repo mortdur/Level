@@ -47,7 +47,7 @@ right: 2rem;
 }
 
 [data-testid="stImage"] {
-width: 100%;
+width: 95%;
 height: auto;
 }
 </style>
