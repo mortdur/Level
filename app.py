@@ -23,10 +23,6 @@ color : rgb(0, 0, 0);
 font-size: 40px;
 }
 
-[data-testid="stImage"]
-width: 100%;
-height: auto;
-
 [data-testid="stVerticalBlock"] {
 background: rgba(83, 0, 0, 0.15);
 border-radius: 15px 50px;
@@ -48,6 +44,11 @@ text-shadow: 1px 1px 1px #0000002e, 2px 2px 1px #0000002b
 
 [data-testid="stToolbar"] {
 right: 2rem;
+}
+
+[data-testid="stImage"] {
+width: 100%;
+height: auto;
 }
 </style>
 """
