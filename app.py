@@ -21,7 +21,7 @@ background: rgba(0,0,0,0);
 }
 
 [data-testid="stVerticalBlock"] {
-color : "#000000";
+color : rgb(0, 0, 0);
 }
 
 [data-testid="stToolbar"] {
