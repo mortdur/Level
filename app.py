@@ -50,6 +50,10 @@ right: 2rem;
 font-size: 15px;
 }
 
+[data-testid="stTickBarMin"] {
+font-size: 15px;
+}
+
 [data-testid="stImage"] {
 width: 95%;
 height: auto;
