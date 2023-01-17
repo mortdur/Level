@@ -30,10 +30,13 @@ background: rgba(83, 0, 0, 0.15);
 border-radius: 15px 50px;
 padding: 0px 16px;
 }
+
+p {
 margin: 0px 0px 1rem;
 padding: 0px;
 font-size: 20px;
 font-weight: 400;
+}
 
 [data-testid="stSelectbox"] {
 color : rgb(189, 0, 0);
