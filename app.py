@@ -23,6 +23,10 @@ color : rgb(0, 0, 0);
 font-size: 40px;
 }
 
+[data-testid="stImage"]
+width: 100%;
+height: auto;
+
 [data-testid="stVerticalBlock"] {
 background: rgba(83, 0, 0, 0.15);
 border-radius: 15px 50px;
@@ -50,7 +54,7 @@ right: 2rem;
 
 with st.container():
   st.markdown(page_bg_img, unsafe_allow_html=True)
-  st.image("logo.png", width: 100%; height: auto;)
+  st.image("logo.png")
   st.title("PREDICT A CARD'S LEVEL")
   st.header('Enter type of the card')
   typec = st.selectbox(' ',("Normal Monster","Spell Card", "Effect Monster","Trap Card"))
