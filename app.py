@@ -36,8 +36,8 @@ with st.container():
   st.image("logo.png", width=450)
   st.title("PREDICT A CARD'S LEVEL")
   st.header('Enter type of the card')
-  typec = st.selectbox('',("Normal Monster","Spell Card", "Effect Monster","Trap Card"),key="select")
-  st.write('You selected:', typec,key="selected")
+  typec = st.selectbox('',("Normal Monster","Spell Card", "Effect Monster","Trap Card"))
+  st.write('You selected:', typec)
   if typec in ("Spell Card") :
     st.subheader("Spell cards they have no level")
   elif typec in ("Trap Card") :
