@@ -60,13 +60,16 @@ text-shadow: 1px 1px 1px #0000002e, 2px 2px 1px #0000002b
 width: 95%;
 height: auto;
 }
+
 .css-17z41qg p {
 font-size: 15px;
 }
+
 .css-10trblm e16nr0p30 {
 color : rgb(138, 156, 253);
 }
-.class="css-v07dn3 e16nr0p32" {
+
+.css-18uc3a4 e16nr0p34 {
 color : rgb(138, 156, 253);
 }
 </style>
