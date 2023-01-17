@@ -49,9 +49,9 @@ with st.container():
 
       # Display the entered name
       if st.button("Enviar"):  st.markdown(page_bg_img, unsafe_allow_html=True)
-         level_model = joblib.load("level_model.pkl")
-         X = pd.DataFrame([[typec,atk, defn ]],
-           columns = ["type","atk", "def"])
-         X = X.replace(["Normal Monster","Spell Card", "Effect Monster","Trap Card"], [0.,1.,2.,3.])
-         prediction = level_model.predict(X)[0]
-         st.subheader(f"The most appropriate level for this card is {round(prediction)}")
+        level_model = joblib.load("level_model.pkl")
+        X = pd.DataFrame([[typec,atk, defn ]],
+          columns = ["type","atk", "def"])
+        X = X.replace(["Normal Monster","Spell Card", "Effect Monster","Trap Card"], [0.,1.,2.,3.])
+        prediction = level_model.predict(X)[0]
+        st.subheader(f"The most appropriate level for this card is {round(prediction)}")
