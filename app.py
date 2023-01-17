@@ -20,6 +20,17 @@ background-attachment: local;
 background: rgba(0,0,0,0);
 }
 
+[data-testid="stMarkdownContainer"] {
+color : rgb(0, 0, 0);
+}
+
+[data-testid=.st-bs"] {
+rgb(189, 0, 0)
+}
+[data-testid="st-be st-bf st-by st-bz st-c0 st-b3 st-c1 st-c2 st-bg st-c3 st-c4 st-c5 st-c6"] {
+rgb(189, 0, 0)
+}
+
 [data-testid="stVerticalBlock"] {
 color : rgb(0, 0, 0);
 background: rgba(0, 0, 0, 0.15);
