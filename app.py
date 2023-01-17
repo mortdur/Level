@@ -24,7 +24,7 @@ font-size: 40px;
 }
 
 [data-testid="stVerticalBlock"] {
-background: rgba(83, 0, 0, 0.15);
+background: rgba(138, 156, 253, 0.15);
 border-radius: 15px 50px;
 padding: 0px 16px;
 }
