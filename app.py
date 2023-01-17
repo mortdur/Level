@@ -21,7 +21,6 @@ background: rgba(0,0,0,0);
 
 [data-testid="stMarkdownContainer"] {
 color : rgb(0, 0, 0);
-text-shadow: 1px 1px 1px red, 2px 2px 1px red;
 font-size: 40px;
 }
 
@@ -36,6 +35,7 @@ margin: 0px 0px 1rem;
 padding: 0px;
 font-size: 20px;
 font-weight: 400;
+text-shadow: 1px 1px 1px red, 2px 2px 1px red;
 }
 
 .st-bs {
