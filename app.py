@@ -9,7 +9,7 @@ page_bg_img = """
 [data-testid="stAppViewContainer"] {
 background-color: #e5e5f7;
 opacity: 0.6;
-background: linear-gradient(135deg, #444cf755 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(225deg, #444cf7 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(315deg, #444cf755 25%, transparent 25%) 0px 0/ 40px 40px, linear-gradient(45deg, #444cf7 25%, #e5e5f7 25%) 0px 0/ 40px 40px;
+background: linear-gradient(135deg, #27295955 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(225deg, #272959 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(315deg, #27295955 25%, transparent 25%) 0px 0/ 40px 40px, linear-gradient(45deg, #272959 25%, #e5e5f7 25%) 0px 0/ 40px 40px;
 }
 
 [data-testid="stHeader"] {
