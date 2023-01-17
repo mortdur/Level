@@ -65,11 +65,7 @@ height: auto;
 font-size: 15px;
 }
 
-.css-10trblm e16nr0p30 {
-color : rgb(138, 156, 253);
-}
-
-.css-18uc3a4 e16nr0p34 {
+h1 {
 color : rgb(138, 156, 253);
 }
 </style>
