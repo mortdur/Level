@@ -38,8 +38,11 @@ font-size: 20px;
 font-weight: 400;
 }
 
-[data-testid="stSelectbox"] {
+div class="st-c7 st-be st-c8 st-c9 st-ca st-bg st-cb st-cc st-cd" {
 color : rgb(189, 0, 0);
+}
+
+[data-testid="stSelectbox"] {
 }
 
 [data-testid="stToolbar"] {
