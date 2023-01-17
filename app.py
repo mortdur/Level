@@ -39,9 +39,9 @@ with st.container():
   typec = st.selectbox('',("Normal Monster","Spell Card", "Effect Monster","Trap Card"),key="select")
   st.write('You selected:', typec,key="selected")
   if typec in ("Spell Card") :
-    st.subheader("Spell cards they have no level",key="spell")
+    st.subheader("Spell cards they have no level")
   elif typec in ("Trap Card") :
-    st.subheader("Trap cards they have no level",key="trap")
+    st.subheader("Trap cards they have no level")
   else:
       # Add a atk input
       st.header('Attack Points of the card:')
