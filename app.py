@@ -40,11 +40,11 @@ with st.container():
     st.subheader("Trap cards they have no level",key="trap")
   else:
       # Add a atk input
-      st.header('Attack Points of the card:',key="atkp")
+      st.header('Attack Points of the card:')
       atk = st.slider("ATK:",0.0, 5000.0,step=100.0,key="atk")
 
       # Add a def input
-      st.header("Defense Points of the card:",key="defp")
+      st.header("Defense Points of the card:")
       defn = st.slider("DEF:",0.0, 5000.0,step=100.0,key="def")
 
       # Display the entered name
