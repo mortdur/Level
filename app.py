@@ -24,6 +24,9 @@ background: rgba(0,0,0,0);
 color : rgb(0, 0, 0);
 background: rgba(0, 0, 0, 0.06);
 }
+[.st-br]{
+color : rgb(0, 0, 0);
+}
 
 [data-testid="stToolbar"] {
 right: 2rem;
