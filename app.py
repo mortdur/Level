@@ -46,6 +46,10 @@ text-shadow: 1px 1px 1px #0000002e, 2px 2px 1px #0000002b
 right: 2rem;
 }
 
+[data-testid="stThumbValue"] {
+font-size: 15px;
+}
+
 [data-testid="stImage"] {
 width: 95%;
 height: auto;
