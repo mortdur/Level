@@ -35,7 +35,7 @@ margin: 0px 0px 1rem;
 padding: 0px;
 font-size: 20px;
 font-weight: 400;
-text-shadow: 1px 1px 1px red, 2px 2px 1px red;
+text-shadow: 1px 1px 1px #ff00001f, 2px 2px 1px #ff00002e;
 }
 
 .st-bs {
