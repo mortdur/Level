@@ -14,6 +14,9 @@ background-repeat: no-repeat;
 background-attachment: local;
 }
 
+div[role="listbox"] ul {
+    background-color: red;
+}
 [data-testid="stHeader"] {
 background: rgba(0,0,0,0);
 }
