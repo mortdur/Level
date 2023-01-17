@@ -63,10 +63,6 @@ height: auto;
 .css-17z41qg p {
 font-size: 15px;
 }
-span {
-text-shadow: 1px 1px 1px #ff00001f, 2px 2px 1px #ff00002e;
-}
-
 .css-10trblm e16nr0p30 {
 color : rgb(138, 156, 253);
 }
