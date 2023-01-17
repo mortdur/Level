@@ -66,8 +66,8 @@ font-size: 15px;
 }
 
 h1 {
-color : rgb(138, 156, 253);
-background: rgba(138, 156, 253, 0.15);
+color : rgb(255, 83, 83);
+text-shadow: 1px 1px 1px #ff00001f, 2px 2px 1px #ff00002e;
 }
 </style>
 """
