@@ -8,7 +8,7 @@ page_bg_img = """
 <style>
 [data-testid="stAppViewContainer"] {
 background-color: #e5e5f7;
-opacity: 0.87;
+opacity: 0.92;
 background-image:  linear-gradient(135deg, #0498ad 25%, transparent 25%), linear-gradient(225deg, #0498ad 25%, transparent 25%), linear-gradient(45deg, #0498ad 25%, transparent 25%), linear-gradient(315deg, #0498ad 25%, #e5e5f7 25%);
 background-position:  40px 0, 40px 0, 0 0, 0 0;
 background-size: 80px 80px;
