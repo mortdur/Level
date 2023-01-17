@@ -30,18 +30,18 @@ right: 2rem;
 with st.container():
   st.markdown(page_bg_img, unsafe_allow_html=True)
   st.image("logo.png", width=450)
-  st.title("PREDICT A CARD'S LEVEL")
-  st.header('Enter type of the card')
-  typec = st.selectbox('',("Normal Monster","Spell Card", "Effect Monster","Trap Card"))
-  st.write('You selected:', typec)
+  st.title("PREDICT A CARD'S LEVEL",key="level")
+  st.header('Enter type of the card',key="tipo")
+  typec = st.selectbox('',("Normal Monster","Spell Card", "Effect Monster","Trap Card"),key="select")
+  st.write('You selected:', typec,key="selected")
   if typec in ("Spell Card") :
-    st.subheader("Spell cards they have no level")
+    st.subheader("Spell cards they have no level",key="spell")
   elif typec in ("Trap Card") :
-    st.subheader("Trap cards they have no level")
+    st.subheader("Trap cards they have no level",key="trap")
   else:
       # Add a atk input
-      st.header('Attack Points of the card:')
-      atk = st.slider("ATK:",0.0, 5000.0,step=100.0)
+      st.header('Attack Points of the card:',key="atkp")
+      atk = st.slider("ATK:",0.0, 5000.0,step=100.0,key="atk")
 
       # Add a def input
       st.header("Defense Points of the card:")
