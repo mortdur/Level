@@ -21,11 +21,11 @@ background: rgba(0,0,0,0);
 
 [data-testid="stMarkdownContainer"] {
 color : rgb(0, 0, 0);
+text-shadow: 1px 1px 1px red, 2px 2px 1px red;
 font-size: 40px;
 }
 
 [data-testid="stVerticalBlock"] {
-#color : rgb(0, 0, 0);
 background: rgba(83, 0, 0, 0.15);
 border-radius: 15px 50px;
 padding: 0px 16px;
@@ -40,9 +40,6 @@ font-weight: 400;
 
 .st-bs {
 color : rgb(189, 0, 0);
-}
-
-[data-testid="stSelectbox"] {
 }
 
 [data-testid="stToolbar"] {
