@@ -21,6 +21,7 @@ background: rgba(0,0,0,0);
 
 [data-testid="stMarkdownContainer"] {
 color : rgb(0, 0, 0);
+font-size: 40px;
 }
 
 [data-testid="stVerticalBlock"] {
@@ -31,10 +32,6 @@ padding: 0px 16px;
 }
 
 [data-testid="stSelectbox"] {
-color : rgb(189, 0, 0);
-}
-
-[data-testid="stMarkdownContainer"] {
 color : rgb(189, 0, 0);
 }
 
