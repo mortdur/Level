@@ -5,7 +5,8 @@ secondaryBackgroundColor = "#f0f2f6"
 st-br = "#00000"
 textColor = "#ffffff"
 font = "sans serif"
-[data-testid="stContainer"] {
-textColor = "#000000";
-background: "#000000";
-}
+
+[data-testid="stContainer"]
+textColor = "#000000"
+background: "#000000"
+
