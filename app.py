@@ -23,6 +23,8 @@ background: rgba(0,0,0,0);
 [data-testid="stVerticalBlock"] {
 color : rgb(0, 0, 0);
 background: rgba(0, 0, 0, 0.06);
+border-radius: 25px;
+border: 2px solid #73AD21;
 }
 [data-testid=".st-br"]{
 color : rgb(0, 0, 0);
