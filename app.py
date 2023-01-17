@@ -76,7 +76,7 @@ text-shadow: 1px 1px 1px #ff00001f, 2px 2px 1px #ff00002e;
 }
 
 span {
-text-shadow: 1px 1px 1px #ff00001f, 2px 2px 1px #ff00002e;
+text-shadow: 1px 1px 1px #0000006b, 2px 2px 1px #0000002e;
 }
 </style>
 """
