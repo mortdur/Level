@@ -2,6 +2,6 @@
 primaryColor = "#c70000"  
 backgroundColor = "#ecb10a"
 secondaryBackgroundColor = "#f0f2f6"
-font-size = 15px;
+font-size = 15
 font = "Trebuchet MS"
 textColor = "#ffffff"
