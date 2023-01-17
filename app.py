@@ -9,8 +9,10 @@ page_bg_img = """
 [data-testid="stAppViewContainer"] {
 background-color: #e5e5f7;
 opacity: 0.87;
-background: linear-gradient(135deg, #27295955 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(225deg, #272959 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(315deg, #27295955 25%, transparent 25%) 0px 0/ 40px 40px, linear-gradient(45deg, #272959 25%, #e5e5f7 25%) 0px 0/ 40px 40px;
-}
+background-image:  linear-gradient(135deg, #0498ad 25%, transparent 25%), linear-gradient(225deg, #0498ad 25%, transparent 25%), linear-gradient(45deg, #0498ad 25%, transparent 25%), linear-gradient(315deg, #0498ad 25%, #e5e5f7 25%);
+background-position:  40px 0, 40px 0, 0 0, 0 0;
+background-size: 80px 80px;
+background-repeat: repeat;}
 
 [data-testid="stHeader"] {
 background: rgba(0,0,0,0);
