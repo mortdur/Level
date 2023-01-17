@@ -66,6 +66,9 @@ font-size: 15px;
 span {
 text-shadow: 1px 1px 1px #ff00001f, 2px 2px 1px #ff00002e;
 }
+.css-v07dn3 e16nr0p32 {
+color : rgb(138, 156, 253);
+}
 </style>
 """
 
