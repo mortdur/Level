@@ -28,35 +28,97 @@ right: 2rem;
 """
 
 with st.container():
-st.markdown(page_bg_img, unsafe_allow_html=True)
-st.image("logo.png", width=450)
-st.title("PREDICT A CARD'S LEVEL")
-st.header('Enter type of the card')
-typec = st.selectbox('',("Normal Monster","Spell Card", "Effect Monster","Trap Card"))
-st.write('You selected:', typec)
-if typec in ("Spell Card") :
-	st.subheader("Spell cards they have no level")
-elif typec in ("Trap Card") :
-	st.subheader("Trap cards they have no level")
-else:
-    # Add a atk input
-    st.header('Attack Points of the card:')
-    atk = st.slider("ATK:",0.0, 5000.0,step=100.0)
+  st.markdown(page_bg_img, unsafe_allow_html=True)
+  st.image("logo.png", width=450)
+  st.title("PREDICT A CARD'S LEVEL")
+  st.header('Enter type of the card')
+  typec = st.selectbox('',("Normal Monster","Spell Card", "Effect Monster","Trap Card"))
+  st.write('You selected:', typec)
+  if typec in ("Spell Card") :
+    st.subheader("Spell cards they have no level")
+  elif typec in ("Trap Card") :
+    st.subheader("Trap cards they have no level")
+  else:
+      # Add a atk input
+      st.header('Attack Points of the card:')
+      atk = st.slider("ATK:",0.0, 5000.0,step=100.0)
 
-    # Add a def input
-    st.header("Defense Points of the card:")
-    defn = st.slider("DEF:",0.0, 5000.0,step=100.0,key="def")
+      # Add a def input
+      st.header("Defense Points of the card:")
+      defn = st.slider("DEF:",0.0, 5000.0,step=100.0,key="def")
 
-    # Display the entered name
-    if st.button("Enviar"):
+      # Display the entered name
+      if st.button("Enviar"):  st.markdown(page_bg_img, unsafe_allow_html=True)
 
-        level_model = joblib.load("level_model.pkl")
+  st.image("logo.png", width=450)
 
-        X = pd.DataFrame([[typec,atk, defn ]],
-            columns = ["type","atk", "def"])
-        X = X.replace(["Normal Monster","Spell Card", "Effect Monster","Trap Card"], [0.,1.,2.,3.])
+  st.title("PREDICT A CARD'S LEVEL")
+
+  st.header('Enter type of the card')
+
+  typec = st.selectbox('',("Normal Monster","Spell Card", "Effect Monster","Trap Card"))
+
+  st.write('You selected:', typec)
+
+  if typec in ("Spell Card") :
+
+    st.subheader("Spell cards they have no level")
+
+  elif typec in ("Trap Card") :
+
+    st.subheader("Trap cards they have no level")
+
+  else:
+
+      # Add a atk input
+
+      st.header('Attack Points of the card:')
+
+      atk = st.slider("ATK:",0.0, 5000.0,step=100.0)
 
 
-        prediction = level_model.predict(X)[0]
 
-        st.subheader(f"The most appropriate level for this card is {round(prediction)}")
+      # Add a def input
+
+      st.header("Defense Points of the card:")
+
+      defn = st.slider("DEF:",0.0, 5000.0,step=100.0,key="def")
+
+
+
+      # Display the entered name
+
+      if st.button("Enviar"):
+
+
+
+          level_model = joblib.load("level_model.pkl")
+
+
+
+          X = pd.DataFrame([[typec,atk, defn ]],
+
+              columns = ["type","atk", "def"])
+
+          X = X.replace(["Normal Monster","Spell Card", "Effect Monster","Trap Card"], [0.,1.,2.,3.])
+
+
+
+
+
+          prediction = level_model.predict(X)[0]
+
+
+
+          st.subheader(f"The most appropriate level for this card is {round(prediction)}")
+
+          level_model = joblib.load("level_model.pkl")
+
+          X = pd.DataFrame([[typec,atk, defn ]],
+              columns = ["type","atk", "def"])
+          X = X.replace(["Normal Monster","Spell Card", "Effect Monster","Trap Card"], [0.,1.,2.,3.])
+
+
+          prediction = level_model.predict(X)[0]
+
+          st.subheader(f"The most appropriate level for this card is {round(prediction)}")
