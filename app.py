@@ -66,6 +66,9 @@ font-size: 15px;
 .css-10trblm e16nr0p30 {
 color : rgb(138, 156, 253);
 }
+class="css-v07dn3 e16nr0p32" {
+color : rgb(138, 156, 253);
+}
 </style>
 """
 
