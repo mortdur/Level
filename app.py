@@ -22,8 +22,7 @@ background: rgba(0,0,0,0);
 
 [data-testid="stVerticalBlock"] {
 color : rgb(0, 0, 0);
-background: rgba(0, 0, 0);
-#opacity: 0.8;
+background: rgba(0, 0, 0, 0.06);
 }
 
 [data-testid="stToolbar"] {
