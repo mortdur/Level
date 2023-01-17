@@ -9,14 +9,13 @@ page_bg_img = """
 [data-testid="stAppViewContainer"] {
 background-image: url("https://mktg-assets.tcgplayer.com/content/opengraph/How%20To%20Build%20The%20Kuribabylon%20Combo%20Deck.jpg");
 background-size: cover;
+opacity: 0.6;
+
 background-position: top left;
 background-repeat: no-repeat;
 background-attachment: local;
 }
 
-div[role="listbox"] ul {
-    background-color: red;
-}
 [data-testid="stHeader"] {
 background: rgba(0,0,0,0);
 }
