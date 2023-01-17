@@ -48,6 +48,7 @@ right: 2rem;
 
 [data-testid="stThumbValue"] {
 font-size: 15px;
+text-shadow: 1px 1px 1px #ff00001f, 2px 2px 1px #ff00002e;
 }
 
 [data-testid="stTickBarMin"] {
