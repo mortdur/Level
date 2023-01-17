@@ -34,6 +34,10 @@ padding: 0px 16px;
 color : rgb(189, 0, 0);
 }
 
+[data-testid="stMarkdownContainer"] {
+color : rgb(189, 0, 0);
+}
+
 [data-testid="stToolbar"] {
 right: 2rem;
 }
