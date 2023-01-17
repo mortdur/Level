@@ -69,6 +69,11 @@ h1 {
 color : rgb(255, 83, 83);
 text-shadow: 1px 1px 1px #ff00001f, 2px 2px 1px #ff00002e;
 }
+
+span {
+color : rgb(255, 186, 113);
+text-shadow: 1px 1px 1px #0000002e, 2px 2px 1px #0000002b;
+}
 </style>
 """
 
