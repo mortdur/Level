@@ -20,7 +20,7 @@ background-attachment: local;
 background: rgba(0,0,0,0);
 }
 
-[data-testid="stContainer"] {
+[data-testid="block-container"] {
 textColor = "#000000";
 background: "#000000";
 }
