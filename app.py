@@ -65,7 +65,7 @@ height: auto;
 font-size: 15px;
 }
 
-span {
+h2 {
 color : rgb(255, 186, 113);
 text-shadow: 1px 1px 1px #0000002e, 2px 2px 1px #0000002b;
 }
