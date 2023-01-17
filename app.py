@@ -17,10 +17,10 @@ background-attachment: local;
 [data-testid="stHeader"] {
 background: rgba(0,0,0,0);
 }
+
 [data-testid="stContainer"] {
 textColor = "#000000";
-background: rgba(100,0,0,0);
-
+background: "#000000";
 }
 
 [data-testid="stToolbar"] {
