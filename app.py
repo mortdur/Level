@@ -60,6 +60,9 @@ text-shadow: 1px 1px 1px #0000002e, 2px 2px 1px #0000002b
 width: 95%;
 height: auto;
 }
+.css-17z41qg p {
+font-size: 15px;
+}
 </style>
 """
 
