@@ -50,7 +50,7 @@ right: 2rem;
 
 with st.container():
   st.markdown(page_bg_img, unsafe_allow_html=True)
-  st.image("logo.png", width="auto";)
+  st.image("logo.png", width: 100%; height: auto;)
   st.title("PREDICT A CARD'S LEVEL")
   st.header('Enter type of the card')
   typec = st.selectbox(' ',("Normal Monster","Spell Card", "Effect Monster","Trap Card"))
