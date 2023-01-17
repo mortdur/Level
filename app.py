@@ -66,7 +66,8 @@ font-size: 15px;
 span {
 text-shadow: 1px 1px 1px #ff00001f, 2px 2px 1px #ff00002e;
 }
-.predict-a-card-s-level {
+
+.css-10trblm e16nr0p30 {
 color : rgb(138, 156, 253);
 }
 </style>
