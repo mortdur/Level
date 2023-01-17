@@ -48,4 +48,4 @@ with st.container():
       defn = st.slider("DEF:",0.0, 5000.0,step=100.0,key="def")
 
       # Display the entered name
-      if st.button("Enviar"):  st.markdown(page_bg_img, unsafe_allow_html=True)
+      if st.button("Enviar"):
