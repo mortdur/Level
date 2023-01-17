@@ -24,7 +24,7 @@ background: rgba(0,0,0,0);
 color : rgb(0, 0, 0);
 background: rgba(0, 0, 0, 0.15);
 border-radius: 15px 50px;
-padding: 55 px;
+padding: 15px 20px;
 }
 
 [data-testid=".st-br"]{
