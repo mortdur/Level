@@ -31,7 +31,7 @@ border-radius: 15px 50px;
 padding: 0px 16px;
 }
 
-[data-testid="stSelectbox"]{
+[data-testid="stSelectbox"] {
 color : rgb(189, 0, 0);
 }
 
