@@ -40,6 +40,7 @@ text-shadow: 1px 1px 1px #ff00001f, 2px 2px 1px #ff00002e;
 
 .st-bs {
 color : rgb(189, 0, 0);
+text-shadow: 1px 1px 1px #0000002e, 2px 2px 1px #0000002b
 }
 
 [data-testid="stToolbar"] {
